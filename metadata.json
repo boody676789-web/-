@@ -1,0 +1,6 @@
+{
+  "name": "صلاتي مع صحابي - إثبات الصلاة والجماعات",
+  "description": "تطبيق عصري لإثبات الصلاة بكاميرا فورية حية، رومات شات مع الأصدقاء، مسار 250 مستوى مع الألقاب، مواعيد السنن وقيام الليل ومضاعف 10 أضعاف للمسجد.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

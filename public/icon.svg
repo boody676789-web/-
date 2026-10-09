@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Gold Ring -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-dasharray="12 8" opacity="0.4"/>
+  
+  <!-- Central Mosque Dome -->
+  <path d="M256,120 C320,170 340,240 340,300 L172,300 C172,240 192,170 256,120 Z" fill="url(#emeraldGrad)"/>
+  
+  <!-- Crescent & Star on Top of Dome -->
+  <path d="M256,70 A18,18 0 1,1 270,95 A14,14 0 1,0 256,74 Z" fill="url(#goldGrad)"/>
+  <polygon points="266,74 269,82 277,82 271,87 273,95 266,90 259,95 261,87 255,82 263,82" fill="url(#goldGrad)"/>
+  
+  <!-- Mosque Pillars / Base Arch -->
+  <path d="M150,300 L362,300 L362,380 L150,380 Z" fill="#047857"/>
+  <!-- Central Mihrab Arch Gate -->
+  <path d="M220,380 L220,330 C220,310 256,290 256,290 C256,290 292,310 292,330 L292,380 Z" fill="url(#goldGrad)"/>
+  
+  <!-- Left Minaret -->
+  <rect x="120" y="200" width="24" height="180" rx="4" fill="#065f46"/>
+  <polygon points="120,200 132,160 144,200" fill="url(#goldGrad)"/>
+  
+  <!-- Right Minaret -->
+  <rect x="368" y="200" width="24" height="180" rx="4" fill="#065f46"/>
+  <polygon points="368,200 380,160 392,200" fill="url(#goldGrad)"/>
+  
+  <!-- Subtle Glowing Stars -->
+  <circle cx="160" cy="130" r="4" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="350" cy="130" r="4" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="210" cy="90" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="300" cy="90" r="3" fill="#fbbf24" opacity="0.6"/>
+</svg>
